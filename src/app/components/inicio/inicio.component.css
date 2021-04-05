@@ -1,11 +1,31 @@
 .fondoItem {
     background-color: #ff111328;
     height: 130px;
-    border-radius: 10px;
+    border-radius: 20px;
     color: blanchedalmond;
     text-align: center;
 }
 
 .genero {
     font-size: 50px;
+}
+
+.numero {
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: -30px;
+}
+
+.cm {
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.form-control-range {
+    padding: 0px 20px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    background: #ff3666;
 }
