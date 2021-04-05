@@ -1,0 +1,11 @@
+.fondoItem {
+    background-color: #ff111328;
+    height: 130px;
+    border-radius: 10px;
+    color: blanchedalmond;
+    text-align: center;
+}
+
+.genero {
+    font-size: 50px;
+}
