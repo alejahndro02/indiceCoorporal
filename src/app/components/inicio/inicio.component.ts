@@ -8,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class InicioComponent implements OnInit {
   edad = 15;
   peso = 60;  
+  altura = 160;
   constructor() { }
 
   ngOnInit(): void {
   }
-
+  cambiarAltura(e){
+    console.log(e.target.value);
+    this.altura = e.target.value; 
+  }
 }
