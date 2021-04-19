@@ -25,10 +25,10 @@
                     <div class="contenedor">
                         <p>Altura</p>
                         <div class="numero">
-                            <span>170</span>
+                            <span>{{altura}}</span>
                             <span class="cm">cm</span>
                         </div>
-                        <input type="range" class="form-range"><br>
+                        <input type="range" (input)="cambiarAltura($event)" [value]="altura" min="120" max="230" class="form-range"><br>
                     </div>
                 </div>
             </div>
