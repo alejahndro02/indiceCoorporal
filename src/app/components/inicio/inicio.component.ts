@@ -28,7 +28,8 @@ export class InicioComponent implements OnInit {
     this.genero = "Femenino";
   }
   calcularMc(){
-  
-    this.router.navigate(['/resultado'])
+    const masaCorporal = this.peso / Math.pow(this.altura/100, 2);
+      // Con el metodo toFix() se redondea el numero que perenece a los decimales  
+    this.router.navigate(['/resultado', masaCorporal.toFixed(1)])
   }
 }
