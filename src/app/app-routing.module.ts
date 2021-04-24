@@ -5,8 +5,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
 { path: '', component: InicioComponent},
-{ path: 'resultado', component: ResultadoComponent},
-{path : '**', redirectTo: ''}  
+{ path: 'resultado/:valor', component: ResultadoComponent},
+{ path : '**', redirectTo: ''}  
 ];
 
 @NgModule({
