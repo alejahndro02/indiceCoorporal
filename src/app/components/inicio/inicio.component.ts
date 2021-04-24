@@ -28,6 +28,7 @@ export class InicioComponent implements OnInit {
     this.genero = "Femenino";
   }
   calcularMc(){
+  
     this.router.navigate(['/resultado'])
   }
 }
